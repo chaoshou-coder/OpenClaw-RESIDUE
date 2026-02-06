@@ -1,0 +1,17 @@
+{
+  "dataDir": "./data/openclaw",
+  "assertions": {
+    "maxActive": 100,
+    "defaultLimit": 10
+  },
+  "extractor": {
+    "enabled": true,
+    "customRules": []
+  },
+  "server": {
+    "port": 7799
+  },
+  "phase": {
+    "autoDetect": true
+  }
+}

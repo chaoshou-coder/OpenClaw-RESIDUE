@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Build / dist
+dist/
+*.egg-info/
+*.egg
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+.cursor/debug.log
+simplerig_data/
+accept-dir/
+test-data/
+
+# Nested repo (optional: add as submodule if needed)
+simplerig/
+
+# Local config (optional, remove if you want to track example configs)
+# ocm.config.json
+
+# Env
+.env
+.env.local
