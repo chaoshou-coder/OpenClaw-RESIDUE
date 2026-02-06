@@ -13,12 +13,16 @@ dist/
 *.egg-info/
 *.egg
 
-# IDE / OS
+# Cursor / IDE / OS
+.cursor/
 .idea/
 .vscode/
 *.swp
 .DS_Store
 Thumbs.db
+.cursor/
+
+
 
 # Logs and temp
 *.log
