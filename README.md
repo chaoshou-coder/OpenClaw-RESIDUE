@@ -7,9 +7,7 @@
 | 路径 | 说明 |
 |------|------|
 | **openclaw-context-manager/** | 独立 npm 包：核心库 + CLI（`ocm`）+ HTTP API + OpenClaw Skills |
-| **simplerig/** | SimpleRig 多阶段开发工作流（本项目的开发流程工具） |
 | **docs/** | 详细结束文档与使用说明 |
-| **.cursor/plans/** | 开发计划与规划文档 |
 
 ## 快速开始
 
