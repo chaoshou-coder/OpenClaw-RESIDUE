@@ -1,13 +1,13 @@
 # OpenClaw-RESIDUE
 
-本仓库为 **OpenClaw 上下文管理系统** 的落地实现与配套工具，基于计划 [上下文管理系统落地](.cursor/plans/上下文管理系统落地_33f7a842.plan.md) 完成开发与验收。
+一种轻量上下文管理方案，适用于在小型VPS中部署的openclaw agent
 
 ## 仓库结构
 
 | 路径 | 说明 |
 |------|------|
 | **openclaw-context-manager/** | 独立 npm 包：核心库 + CLI（`ocm`）+ HTTP API + OpenClaw Skills |
-| **docs/** | 详细结束文档与使用说明 |
+| **docs/** | 使用说明 |
 
 ## 快速开始
 
@@ -19,10 +19,8 @@
    node dist/bin/ocm.js init
    ```
 
-2. **查看完整文档**
-   - [详细结束文档（项目总结与交付清单）](docs/DOCUMENTATION.md)
+2. **文档**
    - [使用说明（安装、配置、CLI、API、集成）](docs/USAGE.md)
-   - [openclaw-context-manager 包说明](openclaw-context-manager/README.md)
 
 ## 主要能力
 
