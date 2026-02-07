@@ -32,6 +32,3 @@
 - **HTTP API**：`GET /state`、`POST /assertion`、`POST /review`，便于 bot 或脚本调用
 - **OpenClaw Skills**：`ocm-state`、`ocm-review` 可直接复制到 `~/.openclaw/skills/`
 
-## 许可证
-
-MIT（见各子项目说明）
